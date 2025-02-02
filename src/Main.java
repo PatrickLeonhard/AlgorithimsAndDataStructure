@@ -11,8 +11,6 @@ public class Main {
 
     }
     public Integer BinarySearch(Integer[] array, int target) {
-        if (array == null || array.length == 0) {
-            return -1;
-        }
+
     }
 }
