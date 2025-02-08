@@ -1,13 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        printItems(10);
-    }
-    public static void printItems(int n){
-        for(int i = 0; i < n; i++){
-            System.out.println(i);
-        }
-        for(int j = 0; j < n; j++){
-            System.out.println(j);
-        }
+        Cookie cookieOne = new Cookie("green");
+        Cookie cookieTwo = new Cookie("blue");
+
+        cookieOne.setColor("yellow");
+
+        System.out.println(cookieOne.getColor());
+        System.out.println(cookieTwo.getColor());
     }
 }
