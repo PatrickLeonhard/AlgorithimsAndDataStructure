@@ -1,16 +1,13 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
-        for (int i = 0; i < 200; i++) {
-            list.add(i);
-        }
-
-
+        printItems(10);
     }
-    public Integer BinarySearch(Integer[] array, int target) {
-
+    public static void printItems(int n){
+        for(int i = 0; i < n; i++){
+            System.out.println(i);
+        }
+        for(int j = 0; j < n; j++){
+            System.out.println(j);
+        }
     }
 }
